@@ -27,7 +27,6 @@ Windows用户需要安装poppler才能使用pdf2image功能：
 ## 使用方法
 
 1. 运行程序：
-
 ```bash
 python pdf-signature.py
 ```
@@ -81,21 +80,15 @@ python pdf-signature.py
 ### Linux/macOS
 
 1. 确保`signature.png`文件位于项目根目录
-
 2. 打开终端，进入项目目录
-
 3. 运行以下命令给脚本添加执行权限：
-
    ```
    chmod +x build_exe.sh
    ```
-
 4. 执行打包脚本：
-
    ```
    ./build_exe.sh
    ```
-
 5. 打包好的可执行文件位于`dist`目录中
 
 ### 关于Poppler
